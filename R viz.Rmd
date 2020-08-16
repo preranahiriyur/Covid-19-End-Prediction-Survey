@@ -11,7 +11,7 @@ library(dplyr)
 library(scales)
 library(shiny)
 library(summarytools)
-setwd("D:\\Prerana Hiriyur\\Miscellaneous\\My projects\\Covid19 Perception")
+setwd("D:\\Prerana Hiriyur\\Miscellaneous\\My projects\\Covid19 Perception\\Covid-19-End-Prediction-Survey")
 data <- read.csv("Covid-19 Perceptions Survey (Responses) - Form responses.csv", header = TRUE)
 data <- subset(data, select = -c(timestamp))
 ```
